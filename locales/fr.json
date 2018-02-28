@@ -4,5 +4,8 @@
 	"ajouter" : "Ajouter",
 	"courriel" : "Courriel",
 	"modifier" : "Modifier",
+	"nom" : "Nom",
+	"prenom" : "Prénom",
+	"telephone" : "Téléphone",
 	"vider" : "Vider"
 }

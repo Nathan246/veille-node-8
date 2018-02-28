@@ -4,5 +4,8 @@
 	"ajouter": "Add",
 	"courriel": "E-mail",
 	"modifier": "Edit",
+	"nom" : "Last name",
+	"prenom" : "First name",
+	"telephone" : "Phone",
 	"vider": "Wipe"
 }
