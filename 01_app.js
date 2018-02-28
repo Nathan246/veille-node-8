@@ -73,9 +73,9 @@ app.get('/:local(en|fr)', function (req, res) {
 	console.log(req.params.local);
 	res.cookie('langueChoisie', req.params.local);
 	res.setLocale(req.params.local);
-	console.log(res.__('courriel'))
+	//console.log(res.__('courriel'))
 
- res.render('accueil.ejs')  
+ 	res.redirect(req.get('referer'))
  
   });
 
@@ -86,7 +86,6 @@ console.log("req.cookies.langueChoisie = " + req.cookies.langueChoisie);
  res.render('accueil.ejs')  
  
   });
-
 
 
 //////////////////////////////////////////  Route Adresse
